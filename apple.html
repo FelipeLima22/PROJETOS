@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Capivara Tecnologica</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/style.css" rel="stylesheet"/>
+			  
+		<script src="js/bootstrap.min.js"> </script>
+		<script src="js/jquery.min.js"> </script>			  
+	</head>
+			
+	<body>
+		<!--Cabeçalho-->
+		<header style="background-color:#E0B17B" id="Topo" class="navbar-fixed-top">
+			<div class=" container">
+				<div class="row">
+					<div class="col-xs-4 col-md-2">
+						<a href="index.html"><img src="img/head/CapTech Logo.png" style="margin:10px;" class="img-responsive"></a>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-8">
+						<div class="active-cyan-3 active-cyan-4 mb-4" style="margin-top:30px;height:60px">
+							<input class="form-control" type="text" placeholder="Procure na Loja!" aria-label="Search">
+						</div>
+					</div>
+					<div class="col-xs-4 hidden-md hidden-lg">
+					</div>
+					<div class="col-xs-2 col-md-1">
+						<a href="#"><img src="img/head/User.png" style="margin-top:15px;" class="img-responsive"></img></a>
+					</div>
+					<div class="col-xs-2 col-md-1">
+						<a href="#"><img src="img/head/Cart.png" style="margin-top:15px;" class="img-responsive"></img></a>
+					</div>
+				</div>
+			</div>
+			<div class="navbar container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle col-xs-1" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar navtoggle-color"></span>
+					<span class="icon-bar navtoggle-color"></span>
+					<span class="icon-bar navtoggle-color"></span>
+					</button>
+					<div class="col-xs-10 hidden-sm hidden-md hidden-lg">
+						<div class="active-cyan-3 active-cyan-4 mb-4" style="margin-top:8px;">
+							<input class="form-control" type="text" placeholder="Procure na Loja!" aria-label="Search">
+						</div>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" style="text-align:center;" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#" >Todos os Departamentos</a>
+							<ul class="dropdown-menu">
+								<li><a href="Index.html">Inicio</a></li>
+								<li><a href="Smartphone.html" >Smartphone</a></li>
+								<li><a href="#">Tablets</a></li>
+								<li><a href="Computadores.html">Computadores</a></li>
+								<li><a href="#">Acessórios</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Smartphones</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Alcatel</a></li>
+								<li><a href="#">OnePlus</a></li>
+								<li><a href="#">Xiaomi</a></li>
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Samsung</a></li>
+								<li><a href="#">Sony</a></li>
+								<li><a href="#">Huaweu</a></li>
+								<li><a href="#">Lenovo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Tablets</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Alcatel</a></li>
+								<li><a href="#">OnePlus</a></li>
+								<li><a href="#">Xiaomi</a></li>
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Samsung</a></li>
+								<li><a href="#">Sony</a></li>
+								<li><a href="#">Huaweu</a></li>
+								<li><a href="#">Lenovo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Computadores</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Dell</a></li>
+								<li><a href="#">Intel</a></li>
+								<li><a href="#">Besmatech</a></li>
+								<li><a href="#">Elgin</a></li>
+								<li><a href="#">Gigabyte</a></li>
+								<li><a href="#">Lenovo</a></li>
+								<li><a href="#">Multilaser</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Acessórios</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Mouse</a></li>
+								<li><a href="#">Teclado</a></li>
+								<li><a href="#">Cabos</a></li>
+								<li><a href="#">Caixa de Som</a></li>
+								<li><a href="#">Suporte</a></li>
+								<li><a href="#">Cadeira</a></li>
+								<li><a href="#">Mouse Pad</a></li>
+								<li><a href="#">Kits e Combos</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="#" class="nav-category">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--Termino da Barra de Navegação-->
+					
+		<!-- Começo do Corpo-->
+		<div class="container" style="margin-top:150px">
+			<div class="row">
+				<div class="col-sm-2 panel panel-default" >
+					<div class="panel-body" id="MyFilter">
+						<h5>Memória Ram</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp 4GB</input></li>
+							<li><input type="checkbox">&nbsp 6GB</input></li>
+							<li><input type="checkbox">&nbsp 8GB</input></li>
+						</ul>
+						<h5>Memória Interna</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp 32GB</input></li>
+							<li><input type="checkbox">&nbsp 64GB</input></li>
+							<li><input type="checkbox">&nbsp 128GB</input></li>
+						</ul>
+						<h5>Processador</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp Snapdragon</input></li>
+							<li><input type="checkbox">&nbsp MediaTek</input></li>
+							<li><input type="checkbox">&nbsp Exynos</input></li>
+						</ul>
+						<h5>Camêra</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp Frontal</input></li>
+							<li><input type="checkbox">&nbsp Frontal Pop-up</input></li>
+							<li><input type="checkbox">&nbsp 48Mp</input></li>
+							<li><input type="checkbox">&nbsp 64Mp</input></li>
+						</ul>
+					</div>
+					<div class="text-center">
+						<button class="btn btn-secondary" data-toggle="collapse" data-target="#MyFilter">Expandir</button>
+					</div>
+				</div>
+				<div class="col-sm-10" >
+					<h3 style="color:#ad6d00">Tablets</h3>
+					<br>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/tablet samsung galaxy s5e.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Tablet Samsung Galaxy Tab S5e SM-T725L 64GB 4G 10,5" Android</div> 
+							<div class="panel-body"><b>R$ 2.159,10 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/tablet/samsung tab A.jpg" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">Tablet, Samsung Galaxy Tab A SM-T280NZKAZTO, 8 GB, 7.0'', Preto</div> 
+						<div class="panel-body"><b>R$629,00 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/Samsung Galaxy Tab.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Tablet Samsung Galaxy Tab S3 Prata com 9.7”, 4G, Android 7.0</div> 
+							<div class="panel-body"><b>R$ 2.008,46 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/sansung tab.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Tablet Samsung Galaxy Tab E T560N 8GB Wi-Fi Tela 9.6" Android 4.4 </div> 
+							<div class="panel-body"><b>R$ 674,99 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/ipad apple.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">iPad Apple 4G 32GB Cinza Espacial Tela 10,2”A10 Câm. 8MP</div> 
+							<div class="panel-body"><b>R$3.239,10 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/tablet/ipad apple cinza.jpg" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">iPad Cinza Espacial com Tela de 9,7”, 4G, 32 GB, Processador A10  </div> 
+						<div class="panel-body"><b>R$ 3.156,75 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/ipad apple rosa.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">iPad Pro 64GB Wi-Fi + 4G Cellular Tela 10,5" Câmera 12MP </div> 
+							<div class="panel-body"><b>R$ 5.956,99 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/tablet/apple ipad 2.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Tablet Apple New Ipad 9.7" Wi-Fi 32Gb Cinza Espacial - Ios 10, </div> 
+							<div class="panel-body"><b>R$2.099,99 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/pc/imac intel apple.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">iMac com Intel® Core™ i5, 8GB, 1TB, Tela de 21,5”, macOS Sierra </div> 
+							<div class="panel-body"><b>R$ 7.769,69 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/pc/macbook apple.png" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">MacBook Air MQD32BZ/A com Intel Core i5 Dual Core 8GB 128GB SSD 13</div> 
+						<div class="panel-body"><b>R$ 5.035,94 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/pc/imac-apple-21-5-4k_z_large.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">iMac Apple 21,5" com Tela Retina 4K, Intel Core i5 seis núcleos 3,0GHz</div> 
+							<div class="panel-body"><b>R$ 6.599,95 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/pc/macbook-pro-apple-13-silver_z_large.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">MacBook Pro Retina Apple 13,3", 8GB, Cinza Espacial, SSD 256GB, Intel Core i5 Dual Core</div> 
+							<div class="panel-body"><b>R$ 9.899,10 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Termino do Corpo-->
+				
+		<!--Rodapé-->
+		<!-- Opinião dos clientes -->
+		<div class="container-fluid text-center bg-grey">
+		  <h2>Oque nossos clientes dizem</h2>
+		  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<h4>"esse era o site do Felipe, ai o Bruno jogou no lixo e fez outro"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+			  </div>
+			  <div class="item">
+				<h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+			  </div>
+			  <div class="item">
+				<h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+			  </div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+		<hr>
+		<footer style="background-color:white" class="container-fluid text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-social">
+							<a href="#Topo">  Voltar ao topo </a>
+							<a href="#">Facebook</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+							<a href="#">Pinterest</a>
+							<a href="#">Googleplus</a>
+							<a href="#">Linkedin</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">				
+					<div class="site-info">
+						<p>Copyright &copy; Untitled. All rights reserved. Design By <a href="https://awaikenthemes.com/" target="_blank">Awaiken Theme</a> Images <a href="https://unsplash.com/" target="_blank">Unsplash</a>, <a href="https://pixabay.com/" target="_blank">Pixabay</a>, <a href="http://www.freepik.com" target="_blank">Freepik</a>, Icon <a href="https://www.flaticon.com/" target="_blank">Flaticon</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--Termino do Rodapé-->
+		
+		
+		 <!-- Jquery Library File -->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<!-- SmoothScroll -->
+		<script src="js/SmoothScroll.js"></script>
+		<!-- Bootstrap js file -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Slick Nav js file -->
+		<script src="js/jquery.min"></script>
+		<!-- Owl Carousel js file -->
+		<script src="js/owl.carousel.js"></script>
+		<!-- Main Custom js file -->
+		<script src="js/function.js"></script>
+​	</body>
+</html>
+		
+		

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Capivara Tecnologica</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/style.css" rel="stylesheet"/>
+			  
+		<script src="js/bootstrap.min.js"> </script>
+		<script src="js/jquery.min.js"> </script>			  
+	</head>
+			
+	<body>
+		<!--Cabeçalho-->
+		<header style="background-color:#E0B17B" id="Topo" class="navbar-fixed-top">
+			<div class=" container">
+				<div class="row">
+					<div class="col-xs-4 col-md-2">
+						<a href="index.html"><img src="img/head/CapTech Logo.png" style="margin:10px;" class="img-responsive"></a>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-8">
+						<div class="active-cyan-3 active-cyan-4 mb-4" style="margin-top:30px;height:60px">
+							<input class="form-control" type="text" placeholder="Procure na Loja!" aria-label="Search">
+						</div>
+					</div>
+					<div class="col-xs-4 hidden-md hidden-lg">
+					</div>
+					<div class="col-xs-2 col-md-1">
+						<a href="#"><img src="img/head/User.png" style="margin-top:15px;" class="img-responsive"></img></a>
+					</div>
+					<div class="col-xs-2 col-md-1">
+						<a href="#"><img src="img/head/Cart.png" style="margin-top:15px;" class="img-responsive"></img></a>
+					</div>
+				</div>
+			</div>
+			<div class="navbar container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle col-xs-1" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar navtoggle-color"></span>
+					<span class="icon-bar navtoggle-color"></span>
+					<span class="icon-bar navtoggle-color"></span>
+					</button>
+					<div class="col-xs-10 hidden-sm hidden-md hidden-lg">
+						<div class="active-cyan-3 active-cyan-4 mb-4" style="margin-top:8px;">
+							<input class="form-control" type="text" placeholder="Procure na Loja!" aria-label="Search">
+						</div>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" style="text-align:center;" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#" >Todos os Departamentos</a>
+							<ul class="dropdown-menu">
+								<li><a href="Index.html">Inicio</a></li>
+								<li><a href="Smartphone.html" >Smartphone</a></li>
+								<li><a href="#">Tablets</a></li>
+								<li><a href="Computadores.html">Computadores</a></li>
+								<li><a href="Acessorios.html">Acessórios</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Smartphones</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Alcatel</a></li>
+								<li><a href="#">OnePlus</a></li>
+								<li><a href="#">Xiaomi</a></li>
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Samsung</a></li>
+								<li><a href="#">Sony</a></li>
+								<li><a href="#">Huaweu</a></li>
+								<li><a href="#">Lenovo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Tablets</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Alcatel</a></li>
+								<li><a href="#">OnePlus</a></li>
+								<li><a href="#">Xiaomi</a></li>
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Samsung</a></li>
+								<li><a href="#">Sony</a></li>
+								<li><a href="#">Huaweu</a></li>
+								<li><a href="#">Lenovo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Computadores</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Dell</a></li>
+								<li><a href="#">Intel</a></li>
+								<li><a href="#">Besmatech</a></li>
+								<li><a href="#">Elgin</a></li>
+								<li><a href="#">Gigabyte</a></li>
+								<li><a href="#">Lenovo</a></li>
+								<li><a href="#">Multilaser</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle nav-category" data-toggle="dropdown" href="#">Acessórios</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Mouse</a></li>
+								<li><a href="#">Teclado</a></li>
+								<li><a href="#">Cabos</a></li>
+								<li><a href="#">Caixa de Som</a></li>
+								<li><a href="#">Suporte</a></li>
+								<li><a href="#">Cadeira</a></li>
+								<li><a href="#">Mouse Pad</a></li>
+								<li><a href="#">Kits e Combos</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="Contato.html" class="nav-category">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--Termino da Barra de Navegação-->
+					
+		<!-- Começo do Corpo-->
+		<div class="container" style="margin-top:150px">
+			<div class="row">
+				<div class="col-sm-2 panel panel-default" >
+					<div class="panel-body" id="MyFilter">
+						<h5>Memória Ram</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp 4GB</input></li>
+							<li><input type="checkbox">&nbsp 6GB</input></li>
+							<li><input type="checkbox">&nbsp 8GB</input></li>
+						</ul>
+						<h5>Memória Interna</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp 32GB</input></li>
+							<li><input type="checkbox">&nbsp 64GB</input></li>
+							<li><input type="checkbox">&nbsp 128GB</input></li>
+						</ul>
+						<h5>Processador</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp Snapdragon</input></li>
+							<li><input type="checkbox">&nbsp MediaTek</input></li>
+							<li><input type="checkbox">&nbsp Exynos</input></li>
+						</ul>
+						<h5>Camêra</h5>
+						<ul>
+							<li><input type="checkbox">&nbsp Frontal</input></li>
+							<li><input type="checkbox">&nbsp Frontal Pop-up</input></li>
+							<li><input type="checkbox">&nbsp 48Mp</input></li>
+							<li><input type="checkbox">&nbsp 64Mp</input></li>
+						</ul>
+					</div>
+					<div class="text-center">
+						<button class="btn btn-secondary" data-toggle="collapse" data-target="#MyFilter">Expandir</button>
+					</div>
+				</div>
+				<div class="col-sm-10" >
+					<h3 style="color:#ad6d00">Acessorios Para Celular</h3>
+					<br>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/controle para cel.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Controle Gatilho Jogar No Celular Free Fire, Pubg Novidade!</div> 
+							<div class="panel-body"><b>R$ 29.99 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/acessorios/fone xihomem.jpg" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">Fone De Ouvido Xiaomi Redmi Airdots Com Bluetooth</div> 
+						<div class="panel-body"><b>R$ 112,00 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/carregador portatil.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Novo Carregador Portátil Power Bank Original Pineng</div> 
+							<div class="panel-body"><b>R$ 44,99 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/bateria.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Bateria Bl-46g1f Lg K10 Novo 2017 M250ds M250 Typ 2800 Mah </div> 
+							<div class="panel-body"><b>R$ 56,49 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/smartwatch.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Smartwatch Relógio Inteligente Frequência Cardíaca Y7 Smart watch</div> 
+							<div class="panel-body"><b>R$239,90 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/acessorios/JBL.jpg" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">Caixa de Som Bluetooth JBL Flip 4 à Prova dÁgua - Portátil 16W USB  </div> 
+						<div class="panel-body"><b>R$ 429,00 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/dockstation.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Dock Station 2 Hd Sata E Ide Usb Esata Combo Serve Hd De Note Ou Pc </div> 
+							<div class="panel-body"><b>R$ 67,50 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/hd externo.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">HD Externo Portátil Seagate Expansion 1TB USB 3.0 </div> 
+							<div class="panel-body"><b>R$ 243,12 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/pen drive cruzer blade.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Pen Drive - 64GB - Sandisk - Cruzer Blade (black friday) </div> 
+							<div class="panel-body"><b>R$ 57,80 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-body"><img src="img/acessorios/caneta para note.jpg" class="img-responsive" alt="Image"></div>
+						<div class="panel-body">Caneta Mouse Wireless Sem Fio Usb 2.64ghz Notebook Computador</div> 
+						<div class="panel-body"><b>R$ 65,90 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+					</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/play2.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Controle Para Ps2 Botoes Macios E Precisos Preto Feir Feir</div> 
+							<div class="panel-body"><b>R$ 33,90 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-body"><img src="img/acessorios/ControleGamer.jpg" class="img-responsive" alt="Image"></div>
+							<div class="panel-body">Controle T-Dagger Virgo T-TGP800 PC PS4 XBox Wired USB</div> 
+							<div class="panel-body"><b>R$185,90 &nbsp </b><button class="btn btn-sm text-right">Comprar</button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Termino do Corpo-->
+				
+		<!--Rodapé-->
+		<!-- Opinião dos clientes -->
+		<div class="container-fluid text-center bg-grey">
+		  <h2>Oque nossos clientes dizem</h2>
+		  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<h4>"esse era o site do Felipe, ai o Bruno jogou no lixo e fez outro"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+			  </div>
+			  <div class="item">
+				<h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+			  </div>
+			  <div class="item">
+				<h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+			  </div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+		<hr>
+		<footer style="background-color:white" class="container-fluid text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-social">
+							<a href="#Topo">  Voltar ao topo </a>
+							<a href="#">Facebook</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+							<a href="#">Pinterest</a>
+							<a href="#">Googleplus</a>
+							<a href="#">Linkedin</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">				
+					<div class="site-info">
+						<p>Copyright &copy; Untitled. All rights reserved. Design By <a href="https://awaikenthemes.com/" target="_blank">Awaiken Theme</a> Images <a href="https://unsplash.com/" target="_blank">Unsplash</a>, <a href="https://pixabay.com/" target="_blank">Pixabay</a>, <a href="http://www.freepik.com" target="_blank">Freepik</a>, Icon <a href="https://www.flaticon.com/" target="_blank">Flaticon</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--Termino do Rodapé-->
+		
+		
+		 <!-- Jquery Library File -->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<!-- SmoothScroll -->
+		<script src="js/SmoothScroll.js"></script>
+		<!-- Bootstrap js file -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Slick Nav js file -->
+		<script src="js/jquery.min"></script>
+		<!-- Owl Carousel js file -->
+		<script src="js/owl.carousel.js"></script>
+		<!-- Main Custom js file -->
+		<script src="js/function.js"></script>
+​	</body>
+</html>
+		
+		
